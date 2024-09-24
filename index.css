@@ -1,0 +1,48 @@
+/* Định dạng chung cho body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+#menubn {
+    background-color: rgb(172, 247, 212);
+    color: black;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    top: 20px;
+}
+
+#menubn:hover {
+    background-color: chartreuse;
+    transform: scale(1.4);
+}
+
+.sidebar {
+    display: none;
+    background-color: #ffffff00;
+    position: absolute;
+    top: 40px;
+    /* Điều chỉnh vị trí để không bị trùng với nút */
+    width: 100px;
+}
+
+.sidebar a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    padding-top: 15 px;
+    color: black;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.nameclan {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: red;
+}

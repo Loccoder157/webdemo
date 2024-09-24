@@ -4,40 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>KTT</title>
+
 </head>
-<script>
-    show = () => {
-        const chat = document.getElementById("text-input").value;
-        console.log(chat);
-        document.getElementById("text-input").value = "";
-    }
-</script>
+<script src="index.js"></script>
 
 <body>
-    <h1 class="clan">KTT</h1>
-    <h2 class="tieungu">Khong The Thua</h2>
-    <div class="getchat">
-        <input type="text" id="text-input" placeholder="y kien">
-        <input type="button" value="sent" onclick="show()">
+    <div class="nameclan">KTT</div>
+    <div id="menu">
+        <input type="button" value="Menu" id="menubn" onclick="hidedidebar()">
+        <div class="sidebar">
+            <a href="#home">Home</a>
+            <a href="#about clans">About clans</a>
+            <a href="#socials">socials</a>
+            <a href="#contact">Contact</a>
+        </div>
     </div>
 </body>
-<style>
-    .clan {
-        font-size: 100px;
-        color: red;
-        text-align: center;
-        padding-bottom: 20px;
-    }
-
-    .tieungu {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .getchat {
-        text-align: center;
-    }
-</style>
 
 </html>
